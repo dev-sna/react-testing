@@ -1,0 +1,25 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #81D4FA, #0091EA);
+}
+.main{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    box-shadow: 0px 0px 20px rgb(100,100,100);
+    max-width: 600px;
+    display: flex;
+    flex: 1;
+    padding: 2em;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+}
